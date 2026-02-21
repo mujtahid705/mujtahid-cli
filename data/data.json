@@ -1,0 +1,428 @@
+{
+  "settings": {
+    "darkModeByDefault": true
+  },
+  "personal": {
+    "name": "Muhammad Mujtahid",
+    "title": "Software Engineer Portfolio",
+    "role": "Software Engineer",
+    "tagline": "Building scalable full-stack solutions with clean architecture",
+    "description": "Software Engineer specializing in MERN stack delivering full-stack solutions with clean architecture.",
+    "about": {
+      "intro": "I'm a Software Engineer specializing in MERN stack development, currently pursuing a BSc in Computer Science at BRAC University while working as a Junior Software Engineer at Fatmonk Studio.",
+      "details": "My journey in tech began with frontend development and has since evolved into full-stack engineering, where I craft scalable, high-performance applications from concept to deployment. I've built and contributed to SaaS platforms, POS systems, headless e-commerce solutions, analytics dashboards, workflow automation tools, and custom CRM systems, focusing on creating seamless, efficient, and maintainable digital experiences that drive business impact. I specialize in React, Next.js, Node.js, Nest.js, and modern web technologies, with a strong emphasis on clean architecture, scalability, and performance optimization. My development approach blends best practices in API design, modular architecture, and cloud-native deployment to ensure reliability and maintainability at scale.",
+      "philosophy": "I believe in clean code, continuous learning, and delivering projects on time with uncompromising quality. Every project is an opportunity to solve real-world problems through technology, and I'm passionate about building products that make a meaningful impact.",
+      "quickFacts": [
+        { "label": "Experience", "value": "2+ Years" },
+        { "label": "Location", "value": "Dhaka, Bangladesh" },
+        { "label": "Education", "value": "BRAC University" },
+        { "label": "Projects", "value": "7+ Major" }
+      ]
+    }
+  },
+  "contact": {
+    "email": "mujtahid705@gmail.com",
+    "phone": "+8801973108826",
+    "location": "Dhaka, Bangladesh",
+    "social": {
+      "github": "https://github.com/mujtahid705",
+      "linkedin": "https://linkedin.com/in/muhammad-mujtahid/",
+      "email": "mailto:mujtahid705@gmail.com"
+    }
+  },
+  "skills": {
+    "frontend": [
+      { "name": "React JS", "icon": "⚛️" },
+      { "name": "Next JS", "icon": "▲" },
+      { "name": "React Native", "icon": "📱" },
+      { "name": "Sveltekit", "icon": "🎯" },
+      { "name": "JavaScript", "icon": "#️⃣" },
+      { "name": "TypeScript", "icon": "🔷" },
+      { "name": "HTML", "icon": "🌐" },
+      { "name": "CSS", "icon": "🎨" }
+    ],
+    "backend": [
+      { "name": "Node JS", "icon": "🟢" },
+      { "name": "Express JS", "icon": "🚀" },
+      { "name": "Nest JS", "icon": "✨" },
+      { "name": "ASP.NET", "icon": "#️⃣" }
+    ],
+    "database": [
+      { "name": "MongoDB", "icon": "🍃" },
+      { "name": "MySQL", "icon": "🐬" },
+      { "name": "PostgreSQL", "icon": "🐘" }
+    ],
+    "tools": [
+      { "name": "Redux", "icon": "⚛️" },
+      { "name": "Tailwind", "icon": "🎨" },
+      { "name": "Mongoose", "icon": "🦫" },
+      { "name": "Expo", "icon": "📱" },
+      { "name": "Git", "icon": "🔧" },
+      { "name": "Docker", "icon": "🐳" },
+      { "name": "Prisma", "icon": "🔷" }
+    ],
+    "additional": [
+      "Git",
+      "VS Code",
+      "Postman",
+      "Figma",
+      "Chrome DevTools",
+      "JWT Authentication",
+      "RESTful APIs",
+      "Responsive Design",
+      "Agile Development",
+      "Problem Solving"
+    ]
+  },
+  "projects": [
+    {
+      "id": "fleeting-commerce",
+      "title": "Fleeting Commerce — White Label E-commerce SaaS",
+      "description": "Designed and developed a multi-tenant white-label e-commerce SaaS platform enabling businesses to launch fully branded online stores. Implemented domain-based storefront rendering, theme customization, subscription management, and secure payment integration, ensuring scalability, tenant isolation, and production-grade performance.",
+      "problem": "Small businesses struggle to launch branded online stores without expensive custom development or being locked into rigid marketplace templates.",
+      "solution": "Built a multi-tenant SaaS platform where each business gets a fully branded storefront rendered via domain-based routing, with theme customization, subscription tiers, and integrated payments — all managed from a single admin dashboard.",
+      "challenges": [
+        "Designing tenant isolation to prevent data leaks between storefronts",
+        "Implementing domain-based routing for dynamic storefront rendering",
+        "Building a flexible theme engine that supports deep customization",
+        "Handling subscription billing and payment gateway integration securely"
+      ],
+      "technologies": ["Next JS", "Nest JS", "PostgreSQL", "Tailwind"],
+      "links": {
+        "demo": "https://fleetingcommerce.vercel.app/",
+        "github": "https://github.com/mujtahid705/fleeting-commerce-backend"
+      }
+    },
+    {
+      "id": "simply-gaines",
+      "title": "Simply Gaines",
+      "description": "Collaborated with a USA-based client to build a multi-role platform for Agencies, Organizations, and Contributors. Implemented role-based onboarding enabling agencies to manage clients, teams, employees, and contributors. Built workflows for projects, campaigns, brand management, and team collaboration. Integrated social media management (Facebook, X) and cloud storage services (Google Drive, OneDrive, Dropbox), and contributed to dual marketplaces for tools/templates and contributor hiring.",
+      "problem": "Agencies lacked a unified platform to manage clients, teams, campaigns, and contributor hiring — forcing them to juggle multiple disconnected tools.",
+      "solution": "Created a multi-role platform with role-based onboarding, project/campaign workflows, social media integrations, cloud storage connectors, and dual marketplaces for tools and contributors.",
+      "challenges": [
+        "Designing a flexible role-based access control system for multiple user types",
+        "Integrating multiple social media APIs (Facebook, X) with varying authentication flows",
+        "Building a dual marketplace with separate listing and discovery logic",
+        "Coordinating with a remote USA-based client across time zones"
+      ],
+      "technologies": [
+        "React",
+        "Redux",
+        "Social Media Integration",
+        "Role-based Auth",
+        "Tailwind"
+      ],
+      "links": {
+        "demo": "https://live.simplygaines.fatmonk.studio/",
+        "github": "#"
+      }
+    },
+    {
+      "id": "sparkle-music",
+      "title": "SparkleMusic",
+      "description": "Cross-platform React Native app for music streaming and downloads from YouTube. Mobile-first entertainment platform.",
+      "problem": "Users wanted a lightweight mobile app to stream and download music from YouTube without the overhead of a full video player.",
+      "solution": "Built a cross-platform React Native app with audio-only streaming, background playback, playlist management, and offline download support using Expo.",
+      "challenges": [
+        "Extracting and streaming audio-only from YouTube sources",
+        "Implementing background audio playback on both iOS and Android",
+        "Managing offline downloads and local storage efficiently",
+        "Handling platform-specific differences in audio APIs"
+      ],
+      "technologies": ["React Native", "Expo"],
+      "links": {
+        "demo": "#",
+        "github": "https://github.com/abtahi-tajwar/SparkleMusic"
+      }
+    },
+    {
+      "id": "startup-connect",
+      "title": "Bangladesh Startup Connect 2025",
+      "description": "Dynamic event website with CMS functionality for BIDA's investment summit. Built with modern React architecture and state management.",
+      "problem": "BIDA needed a professional event website for their investment summit that could be updated dynamically without developer intervention.",
+      "solution": "Delivered a dynamic event website with CMS-like functionality, allowing content managers to update speakers, schedules, and sponsor information through an admin interface built with React and Redux.",
+      "challenges": [
+        "Building a CMS-like admin interface within a tight timeline",
+        "Implementing real-time content updates without page refreshes",
+        "Ensuring the site handled traffic spikes during the live event"
+      ],
+      "technologies": ["React", "Redux", "Tailwind"],
+      "links": {
+        "demo": "https://connect.startupbangladesh.gov.bd/",
+        "github": "#"
+      }
+    },
+    {
+      "id": "task-master-pro",
+      "title": "Task Master Pro",
+      "description": "Centralized project and team management platform with role-based permissions. Full-stack solution with modern MERN architecture.",
+      "problem": "Teams needed a centralized platform for project tracking with granular role-based permissions, rather than using scattered tools.",
+      "solution": "Built a full-stack MERN project management platform with role-based access, task assignment, progress tracking, and team collaboration features.",
+      "challenges": [
+        "Implementing granular role-based permissions across different project scopes",
+        "Designing a real-time task update system with optimistic UI",
+        "Building a scalable MongoDB schema for nested project structures"
+      ],
+      "technologies": ["React", "Node JS", "Express", "MongoDB", "Mongoose"],
+      "links": {
+        "demo": "#",
+        "github": "https://github.com/mujtahid705/TaskMasterPro_frontend"
+      }
+    },
+    {
+      "id": "fatmonk-studio",
+      "title": "Fatmonk Studio Website",
+      "description": "Official website with custom CMS-like functionality and secure backend. Professional company website with modern design.",
+      "problem": "The studio needed a professional web presence with dynamic content management that didn't require a heavy third-party CMS.",
+      "solution": "Built a custom company website with a lightweight CMS backend, allowing the team to manage portfolio items, team profiles, and service listings through a secure admin panel.",
+      "challenges": [
+        "Designing a lightweight CMS that's simple yet flexible enough for varied content",
+        "Implementing secure authentication for the admin panel",
+        "Optimizing performance for image-heavy portfolio pages"
+      ],
+      "technologies": ["React", "Node JS", "Express", "MongoDB", "Mongoose"],
+      "links": {
+        "demo": "https://fatmonk.studio/",
+        "github": "#"
+      }
+    },
+    {
+      "id": "feerot",
+      "title": "Feerot",
+      "description": "E-commerce coupon and discount platform with real-time tracking. Modern shopping companion application.",
+      "problem": "Online shoppers had no centralized way to discover, track, and apply coupons across multiple e-commerce platforms.",
+      "solution": "Created a coupon aggregation platform with real-time tracking, user-submitted deals, and a clean browsing interface for discovering discounts across stores.",
+      "challenges": [
+        "Aggregating and validating coupon data from multiple sources",
+        "Building a real-time tracking system for coupon expiration and usage",
+        "Designing a UX that makes browsing hundreds of deals feel fast"
+      ],
+      "technologies": ["React", "Redux"],
+      "links": {
+        "demo": "#",
+        "github": "https://github.com/n0k1b/feerotFrontend/tree/master"
+      }
+    }
+  ],
+  "experience": [
+    {
+      "position": "Software Engineer",
+      "company": "Fatmonk Studio",
+      "period": "Jan 2025 - Present",
+      "location": "Banani, Dhaka (Hybrid)",
+      "achievements": [
+        "Specialized in MERN stack delivering full-stack solutions with clean architecture",
+        "Built end-to-end SaaS applications, POS and inventory management systems, headless e-commerce platforms, and data analytics dashboards with a focus on performance, scalability, and clean architecture.",
+        "Collaborated with stakeholders for requirement gathering and ongoing support"
+      ],
+      "technologies": [
+        "React",
+        "Node JS",
+        "Express",
+        "Nest JS",
+        "MongoDB",
+        "PostgreSQL",
+        "Docker"
+      ]
+    },
+    {
+      "position": "Frontend Developer",
+      "company": "XiT Bangladesh",
+      "period": "Aug 2022 - Dec 2024",
+      "location": "Remote",
+      "achievements": [
+        "Lead frontend developer on two major client projects",
+        "Handled frontend architecture, routing, state management, and API integration",
+        "Delivered projects on time with high quality and client satisfaction"
+      ],
+      "technologies": ["React", "JavaScript", "Redux", "API Integration"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "BRAC University",
+      "degree": "BSc in Computer Science",
+      "period": "2026",
+      "location": "Dhaka, Bangladesh"
+    },
+    {
+      "institution": "Hazera Taju Degree College",
+      "degree": "Higher Secondary Certificate (HSC)",
+      "period": "2021",
+      "location": "Chittagong, Bangladesh"
+    },
+    {
+      "institution": "Ispahani Public School and College",
+      "degree": "Secondary School Certificate (SSC)",
+      "period": "2019",
+      "location": "Chittagong, Bangladesh"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2019",
+      "title": "SSC Completed",
+      "description": "Graduated from Ispahani Public School and College, Chittagong",
+      "type": "education"
+    },
+    {
+      "year": "2021",
+      "title": "HSC Completed",
+      "description": "Graduated from Hazera Taju Degree College, Chittagong",
+      "type": "education"
+    },
+    {
+      "year": "2022",
+      "title": "First Developer Role - Frontend Developer at XiT Bangladesh",
+      "description": "Joined XiT Bangladesh as a Frontend Developer — built client-facing web apps with React and Redux",
+      "type": "career"
+    },
+    {
+      "year": "2022",
+      "title": "Started BSc in Computer Science",
+      "description": "Began pursuing Computer Science at BRAC University, Dhaka",
+      "type": "education"
+    },
+    {
+      "year": "2024",
+      "title": "Full-Stack Transition",
+      "description": "Expanded into backend development with Node.js, Express, and Nest.js — built complete SaaS platforms",
+      "type": "milestone"
+    },
+    {
+      "year": "2025",
+      "title": "Software Engineer at Fatmonk Studio",
+      "description": "Joined Fatmonk Studio as a Software Engineer, building production SaaS, e-commerce, and analytics systems",
+      "type": "career"
+    }
+  ],
+  "github": {
+    "username": "mujtahid705",
+    "repos": 25,
+    "stars": 48,
+    "contributions": 847,
+    "streak": 15,
+    "topLanguages": [
+      { "name": "JavaScript", "percentage": 42 },
+      { "name": "TypeScript", "percentage": 28 },
+      { "name": "CSS", "percentage": 12 },
+      { "name": "HTML", "percentage": 10 },
+      { "name": "Python", "percentage": 5 },
+      { "name": "Other", "percentage": 3 }
+    ]
+  },
+  "game": {
+    "title": "Tech Trivia Challenge",
+    "description": "Test your web development knowledge!",
+    "questions": [
+      {
+        "question": "What does the 'use strict' directive do in JavaScript?",
+        "options": [
+          "Enables strict mode with stricter parsing",
+          "Imports a module",
+          "Declares a constant variable",
+          "Enables TypeScript mode"
+        ],
+        "answer": 0,
+        "explanation": "'use strict' enables strict mode, which catches common coding mistakes and prevents the use of certain error-prone features."
+      },
+      {
+        "question": "Which HTTP method is idempotent?",
+        "options": ["POST", "PATCH", "PUT", "None of the above"],
+        "answer": 2,
+        "explanation": "PUT is idempotent — making the same PUT request multiple times produces the same result. POST creates new resources each time."
+      },
+      {
+        "question": "What is the output of: typeof null?",
+        "options": ["'null'", "'undefined'", "'object'", "'boolean'"],
+        "answer": 2,
+        "explanation": "This is a famous JavaScript quirk — typeof null returns 'object' due to a legacy bug in the language specification."
+      },
+      {
+        "question": "What does CORS stand for?",
+        "options": [
+          "Cross-Origin Resource Sharing",
+          "Create Object Request Service",
+          "Client-Origin Response System",
+          "Cross-Object Render Standard"
+        ],
+        "answer": 0,
+        "explanation": "CORS (Cross-Origin Resource Sharing) is a security mechanism that allows servers to specify which origins can access their resources."
+      },
+      {
+        "question": "In React, what hook replaces componentDidMount in functional components?",
+        "options": ["useState", "useReducer", "useEffect", "useMemo"],
+        "answer": 2,
+        "explanation": "useEffect with an empty dependency array [] runs once after the initial render, equivalent to componentDidMount."
+      },
+      {
+        "question": "What is the time complexity of accessing an element in a hash map?",
+        "options": ["O(n)", "O(log n)", "O(1) average", "O(n log n)"],
+        "answer": 2,
+        "explanation": "Hash maps provide O(1) average-case access time through hashing, though worst case can be O(n) with many collisions."
+      },
+      {
+        "question": "Which SQL command is used to remove a table entirely?",
+        "options": [
+          "DELETE TABLE",
+          "REMOVE TABLE",
+          "DROP TABLE",
+          "DESTROY TABLE"
+        ],
+        "answer": 2,
+        "explanation": "DROP TABLE removes the table structure and all its data permanently. DELETE only removes rows."
+      },
+      {
+        "question": "What does the 'virtual DOM' in React do?",
+        "options": [
+          "Runs code in a virtual machine",
+          "Creates a lightweight copy of the real DOM for efficient diffing",
+          "Generates shadow DOM elements",
+          "Compiles JSX to HTML at build time"
+        ],
+        "answer": 1,
+        "explanation": "The virtual DOM is an in-memory representation of the real DOM. React diffs the virtual DOM to minimize actual DOM updates."
+      }
+    ]
+  },
+  "easterEggs": {
+    "messages": [
+      "You found a secret! Mujtahid once debugged a CORS issue for 6 hours... it was a missing slash.",
+      "Fun fact: Mujtahid's first program was a calculator in C — it could only add.",
+      "Legend has it Mujtahid can center a div on the first try. Sometimes.",
+      "Coffee consumption correlates directly with code quality. This is not up for debate.",
+      "404: Easter egg not found. Just kidding — you found it!"
+    ],
+    "secretCommand": "sudo hire mujtahid"
+  },
+  "features": [
+    {
+      "title": "Clean Code",
+      "description": "Writing maintainable, scalable, and efficient code that stands the test of time.",
+      "icon": "code"
+    },
+    {
+      "title": "Design-First",
+      "description": "Bridging the gap between design and development with pixel-perfect implementations.",
+      "icon": "star"
+    },
+    {
+      "title": "Performance",
+      "description": "Optimizing applications for speed, accessibility, and exceptional user experience.",
+      "icon": "zap"
+    },
+    {
+      "title": "Collaboration",
+      "description": "Working closely with teams to deliver projects that exceed expectations.",
+      "icon": "users"
+    }
+  ],
+  "sections": [
+    { "id": "about", "title": "About" },
+    { "id": "skills", "title": "Skills" },
+    { "id": "projects", "title": "Projects" },
+    { "id": "education", "title": "Education" },
+    { "id": "experience", "title": "Experience" },
+    { "id": "contact", "title": "Contact" }
+  ]
+}

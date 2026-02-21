@@ -1,0 +1,28 @@
+{
+  "name": "mujtahid-cli",
+  "version": "1.0.0",
+  "description": "Interactive CLI portfolio for Muhammad Mujtahid",
+  "type": "module",
+  "bin": {
+    "mujtahid": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "dev": "node --watch bin/index.js"
+  },
+  "keywords": [
+    "portfolio",
+    "cli",
+    "interactive",
+    "developer"
+  ],
+  "author": "Muhammad Mujtahid",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "figlet": "^1.8.0",
+    "inquirer": "^12.4.2",
+    "ora": "^8.2.0"
+  }
+}
