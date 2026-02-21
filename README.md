@@ -1,6 +1,20 @@
 # mujtahid-cli 🚀
 
+[![npm version](https://img.shields.io/npm/v/mujtahid-cli.svg)](https://www.npmjs.com/package/mujtahid-cli)
+[![npm downloads](https://img.shields.io/npm/dt/mujtahid-cli.svg)](https://www.npmjs.com/package/mujtahid-cli)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 An interactive CLI portfolio showcasing my journey as a Software Engineer. Experience my portfolio in a unique, terminal-based interface.
+
+## 📺 Demo
+
+Try it right now without installing:
+
+```bash
+npx mujtahid-cli
+```
+
+No installation required! Just run the command above and explore my portfolio interactively.
 
 ## ✨ Features
 
@@ -91,17 +105,26 @@ I'm Muhammad Mujtahid, a Software Engineer specializing in MERN stack developmen
 
 ## 📄 License
 
-MIT © [Muhammad Mujtahid](https://github.com/mujtahid705)
+MIT © [Muhammad Mujtahid](https://github.com/mujtahid705/mujtahid-cli)
 
 ## 🤝 Connect
 
 - 📧 Email: mujtahid705@gmail.com
 - 💼 LinkedIn: [muhammad-mujtahid](https://linkedin.com/in/muhammad-mujtahid/)
 - 🐙 GitHub: [mujtahid705](https://github.com/mujtahid705)
+- 📦 npm: [mujtahid-cli](https://www.npmjs.com/package/mujtahid-cli)
+
+## 📊 Package Stats
+
+View live stats: [npm package page](https://www.npmjs.com/package/mujtahid-cli)
 
 ## ⭐ Show Your Support
 
-If you like this project, please consider giving it a star on GitHub!
+If you like this project, please consider:
+
+- ⭐ Starring the [GitHub repository](https://github.com/mujtahid705/mujtahid-cli)
+- 📦 Sharing the npm package
+- 💬 Spreading the word about it!
 
 ---
 

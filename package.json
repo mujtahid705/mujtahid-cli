@@ -18,6 +18,14 @@
   ],
   "author": "Muhammad Mujtahid",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mujtahid705/mujtahid-cli.git"
+  },
+  "homepage": "https://github.com/mujtahid705/mujtahid-cli#readme",
+  "bugs": {
+    "url": "https://github.com/mujtahid705/mujtahid-cli/issues"
+  },
   "dependencies": {
     "chalk": "^5.4.1",
     "commander": "^13.1.0",
